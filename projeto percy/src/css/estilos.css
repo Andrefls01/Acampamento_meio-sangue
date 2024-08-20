@@ -1,0 +1,51 @@
+*{
+    background-color: black;
+}
+.container {
+    width: 50%;
+    height: 1200px;
+    display: flex;
+    gap: 5px;
+}
+
+.container img{
+    width: 10%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid #fff;
+    transition: all ease-out 1s;
+}
+
+.container img:hover{
+    width: 100%;
+}
+
+.acampamento .personagem .informacoes-personagem h3 {
+    padding: 100px 10px 10px 10px;
+
+}
+.acampamento .personagem .informacoes-personagem {
+    background-color: #040203;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    font-weight: 600;
+    opacity: 0;
+    transition: 0, 3s;
+    padding: 20px;
+}
+.acampamento .container-personagens {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+
+.acampamento .container-personagens .personagem:hover .informacoes-personagem {
+    opacity: 0.9;
+    background-color: #000;
+}
